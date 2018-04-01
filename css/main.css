@@ -1,0 +1,86 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+/* Background gradient is courtesy of http://lea.verou.me/css3patterns/#carbon */
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+}
+
+hr {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width:100%;
+    height: 2px;
+    background: #bcbbbb;
+}
+
+h1{
+    margin-bottom: 2px;
+    color: #bcbbbb;
+}
+
+h2{
+    color: #bcbbbb;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #bcbbbb;
+}
+
+h4{
+    margin-top: 2px;
+    color: #bcbbbb;
+}
+
+svg {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.otter-logo {
+  max-height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.grid {
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer{
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+#copyright{
+    color: #909090;
+}
